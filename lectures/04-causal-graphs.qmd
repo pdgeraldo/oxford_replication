@@ -1,12 +1,11 @@
 ---
 title: "Replication"
 author: "Pablo Geraldo Bastías"
-footer: "Graphical causal models"
 date: 11/03/2026
 date-format: long
 title-slide-attributes:
-  data-background-image: img/pexels-carolyn-1539564-3346028.jpg
-  data-background-opacity: "0.4"
+  data-background-image: ./img/pexels-felix-mittermeier-957024.jpg
+  data-background-opacity: "0.5"
   data-background-size: cover
 format: 
   revealjs:
