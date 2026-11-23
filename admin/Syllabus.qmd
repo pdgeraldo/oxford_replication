@@ -1,0 +1,123 @@
+---
+title: "Replication Project"
+author: "Pablo Geraldo Bastías (pablo.geraldo@sociology.ox.ac.uk)"
+format: 
+  pdf:
+    number-sections: true
+    colorlinks: true
+    mainfont: "Crimson Text"
+    monofont: "Crimson Text"
+    sansfont: "Crimson Text"
+    fontsize: 12pt
+margin-left: 2.5cm
+margin-right: 2.5cm
+margin-top: 2cm
+margin-bottom: 2cm
+---
+
+University of Oxford - Michaelmas 2026 |
+Location: Library room, Department of Sociology |
+Meetings: Tuesdays, 9:30-11:30am |
+Class website: [Canvas](https://canvas.ox.ac.uk/courses/299688) 
+
+
+## General
+
+Should we believe in published scientific results? The so-called “replication crisis” has cast doubt on the credibility of (social) sciences, with repercussions extending well beyond the walls of academia. Although a lot of attention has been drawn towards the most egregious examples of fraud and research malpractice, results that fail to replicate do not imply nor require ill-intent from researchers: many of us have simply not been trained on the principles and practices of “open science”, and those practices are costly and rarely rewarded. In this course, we aim to lower the entry cost to developing a workflow for reproducible research that can become second nature to you, by means of an applied replication project where we dissect and re-analyse a published piece of sociological research.
+
+ 
+## Content and Structure
+ 
+After an overview session, the course will focus on developing a toolkit for reproducible research, both in terms of *computational reproducibility* (“Reproducible workflow”), and *conceptual reproducibility* (“Identification, robustness and sensitivity”). At the end of the term, the students will present the final results of their individual replication projects. Our session plan is as follows:
+
+**Week 1**: Introduction -- What is replication and why do we need it?
+
+**Week 2**: Reproducible workflow 1 -- Quarto and R
+
+**Week 3**: Reproducible workflow 2 -- Git and Github
+
+**Week 4**: Identification, robustness and sensitivity -- Causal graphs
+
+**Week 5**:  Identification, robustness and sensitivity -- Dealing with specifications
+
+**Week 6**: Identification, robustness and sensitivity -- Dealing with assumptions
+
+**Week 7**: Reproducible workflow 3 -- AI, agents, or what are we even doing?
+
+**Week 8**: Individual project presentations
+
+## Learning Outcomes
+ 
+Students will appreciate the importance of computational and conceptual reproducibility for the credibility of social sciences. They will also develop a workflow for reproducible research that can be applied for their future work in the programme and beyond. 
+
+## Teaching Arrangement
+
+The course consists of weekly lectures (Weeks 1 to 8), and two individual meetings to provide feedback on the replication projects (Week 2 and Week 6). 
+
+## How to prepare for lectures (review)
+
+Each week, we will cover two related topics. While not attempting to be exhaustive, there is still a lot to learn, and attending lectures alone won’t be enough. The role of the lecture is to provide a general panorama, and to build intuition to get you started and up to speed. You will encounter more technical material in the readings, and the problem sets will challenge you to apply the concepts and methods covered in class to real examples.
+
+To get the most out of the class (to understand, to the point of being able to build and support causal claims on your own research), you will need to engage. Learning requires not only seeing, but doing. Both the readings (before and after the lecture), and the practical exercises, are essential components of the course. Asking questions (to yourself, to the readings, to your classmates, and to me) is one of the most important parts of active learning. So feel free to ask as many questions as you need, in person and online. 
+
+## Course Assessment
+ 
+Assessment is conducted through a replication project in three parts. The paper should be between 6,000 and 8,000 words, appropriate for submission to an academic journal (part 1). This is complemented by a research diary (part 2) and replication code in any statistical software (part 3). The submission deadline is noon on Monday of Week 5 of Hillary Term.
+
+Additionally, students will receive formative feedback (and a mark that does not contribute to the final grade of the course) for 1) a short presentation (5-7min) on the paper they aim to replicate, in a date to be assigned (W3-4); and 2) the final presentation of their individual replication project (W8).
+
+
+## Programming and software
+
+During the term, students are expected to conduct data pre-processing steps, model estimation, and interpretation of results. This practical material will be covered through analyses and replications included in the problem sets, to be performed in R. You can find the R installation instructions for your system on the [CRAN website](https://cran.r-project.org/). I highly recommend you to install [RStudio](https://posit.co/download/rstudio-desktop/) as your development environment. 
+
+You will find many free tutorials and books online, targeted at various levels of experience. If you are not familiar with R, or need to improve your proficiency, I recommend the following resources:
+
+* Imai, K. (2018). Quantitative Social Science. An Introduction. Princeton University Press
+
+* Llaudet, E., and Imai, K. (2023). Data Analysis for Social Science. A Friendly and Practical Introduction, Princeton University Press (more beginner’s friendly than the one above)
+
+* Wickham, H., Çentikaya-Rundel, M., and Grolemund, G. (2023). R for Data Science, 2nd Edition, O’Reilly Media, Free online: [https://r4ds.hadley.nz/](https://r4ds.hadley.nz/) 
+
+If you are proficient in Stata and need to migrate to R, you may find some of these resources useful: see [here](https://www.matthieugomez.com/statar/) and [here](https://www.hertiecodingclub.com/learn/rstudio/stata_to_r/). 
+
+Finally, Quarto. Quarto is a type of document where you can seamlessly write text, code, run your analyses, and get output (tables and plots) directly incorporated. Even more, from the same source code, you can render a pdf document or an html version (like a local website). It is therefore an amazing tool for research and data science, making your work well documented and reproducible. There is a Quarto chapter in the r4ds book ([here](https://r4ds.hadley.nz/quarto)), and the official documentation is very well explained. To get started go here: [https://quarto.org/docs/get-started/hello/rstudio.html](https://quarto.org/docs/get-started/hello/rstudio.html)
+
+For the problem sets, we will use Quarto. If you’re familiar with Rmarkdown, it is pretty much the same, but better. If you are not, it’s ok. You can probably get away by just modifying the template I will provide. Notice that Quarto also supports other programming languages, such as Python. You can use them for the problem sets, but no support will be provided for coding issues in other languages.
+
+## Using ChatGPT and other Generative AI tools
+
+The University has adopted the Russell Group guidelines for the use of Generative AI in education [[here](https://russellgroup.ac.uk/media/6137/rg_ai_principles-final.pdf)]. Additional resources can be found [here](https://www.ctl.ox.ac.uk/ai) and [here.](https://www.ox.ac.uk/students/academic/guidance/skills/ai-study) Up to date policies on Plagiarism can be found [here](https://www.ox.ac.uk/students/academic/guidance/skills/plagiarism). 
+
+In general, using ChatGPT or other Generative AI tools in this class is discouraged but not forbidden, under certain limits. Write your own answers, but if you need help cleaning grammatical and redaction errors, go ahead. Write your own code, but if you need help debugging, go ahead. Whatever the case, you should add a note indicating if and when you used the help of a Generative AI model, including the type of model you used (ChatGPT, Claude, or any other), and the prompt you asked. 
+
+Once again, do not ask a Generative AI model to do the work for you! The first and most important reason is that there is no point in taking this class if you’re not doing the work yourself. Another important reason is that, believe it or not, these models do not understand causal inference very well. You may get a lot of ok-sounding answers that are fundamentally flawed (I have checked this many times myself!). The idea of taking this class is precisely being able to separate the wheat from the chaff in the applied causal inference literature, while Generative AI is a really powerful tool to obfuscate their difference. Therefore: 
+
+It is important to do the required readings, not just read an automated summary of them. Reading is learning!
+
+It is important to write your own answers to the questions in the problem sets, not just write  a prompt. Writing is thinking!
+
+It is important to write your own code, and to check that it correctly implements your desired analysis. It’s easier (and safer) to improve what you write yourself, than to fix AI-generated code!
+
+## References
+ 
+The complete list of readings for this class, organized by topics, can be found on Canvas. Here I only list some booksI have found particularly useful to improve my understanding of causal inference.
+
+* Angrist, Joshua and Jörn-Steffen Pischke (2009). Mostly Harmless Econometrics. Princeton University Press
+
+* Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V. (2024): Applied Causal Inference Powered by ML and AI; arXiv:2403.02467. Free online: [https://CausalML-book.org](https://CausalML-book.org) 
+
+* Hernan, M., and Robins, J. (2025). Causal Inference. What if. Chapman and Hall/CRC. Free online: [https://miguelhernan.org/whatifbook](https://miguelhernan.org/whatifbook)
+
+* Huntington-Klein, N. (2022). The Effect: An Introduction to Research Design and Causality (1st edition). Chapman and Hall/CRC. Free online: [https://theeffectbook.net/](https://theeffectbook.net/) 
+
+* Morgan, Stephen L. and Christopher Winship (2014). Counterfactuals and Causal Inference: Methods and Principles for Social Research (2nd edition), Cambridge University Press
+
+* Pearl, Judea, Madelyn Glymour and Nicholas P. Jewell. 2016. Causal Inference in Statistics.  Wiley
+
+* Wager, S. (2024). Causal Inference. A Statistical Learning Approach. Free online: [https://web.stanford.edu/~swager/causal_inf_book.pdf](https://web.stanford.edu/~swager/causal_inf_book.pdf)
+
+
+## Acknowledgments
+
+I have been influenced by a lot of people in my way of thinking about causal inference in general, and in preparing the materials for this class in particular. I first encountered causal inference more than a decade ago (!) during my master’s in the Catholic University of Chile, in an eye-opening class taught by [Luis Maldonado](https://lmaldona.github.io/). At UCLA, I learn from (in alphabetical order) [Onyi Arah](https://ph.ucla.edu/about/faculty-staff-directory/onyebuchi-arah), [Jennie Brand](https://www.profjenniebrand.com/), [Erin Hartman](https://erinhartman.com/), [Chad Hazlett](https://www.chadhazlett.com/), and [Rodrigo Pinto](https://www.rodrigopinto.net/). For this class, I am drawing heavily on Chad’s class materials. Here at Oxford, both [Richard Breen](https://www.sociology.ox.ac.uk/people/richard-breen) and [Sascha Riaz](https://saschariaz.com/) have generously shared their own materials from previous iterations of this course they taught in Sociology and Political Sciences. 
