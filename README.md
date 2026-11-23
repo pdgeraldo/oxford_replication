@@ -1,0 +1,4 @@
+# Replication project
+## Oxford MT 26 (MPhil in Sociology and Demography)
+
+Should we believe in published scientific results? The so-called “replication crisis” has cast doubt on the credibility of (social) sciences, with repercussions extending well beyond the walls of academia. Although a lot of attention has been drawn towards the most egregious examples of fraud and research malpractice, results that fail to replicate do not imply nor require ill-intent from researchers: many of us have simply not been trained on the principles and practices of “open science”, and those practices are costly and rarely rewarded. In this course, we aim to lower the entry cost to developing a workflow for reproducible research that can become second nature to you, by means of an applied replication project where we dissect and re-analyse a published piece of sociological research.
